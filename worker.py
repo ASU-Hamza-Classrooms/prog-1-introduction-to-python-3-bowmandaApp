@@ -3,10 +3,12 @@
 from stringlib import *
 
 #Add a Worker class to this file.
-#
+class Worker:
+
 #The Worker class constructor needs to take as input
 #a string.  It will set its own data member to that string.
-#
+    def Worker(string):
+
 #Add methods to the Worker class that are equivalent to
 #functions in the stringlib module.  These methods will
 #not take a string as input (except for the containsWord
@@ -14,4 +16,12 @@ from stringlib import *
 #these methods will operate on the Worker class data member. 
 #Your method can call the needed function in the stringlib
 #module.
+
+        reverseStr()
+        
+        containsWord(string, containedStr)
+        
+        isPalindrome(string)
+        
+        upperCaseStr(string)
 
